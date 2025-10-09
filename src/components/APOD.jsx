@@ -5,7 +5,7 @@ import Header from "./Header";
 function APOD() {
   const [date, setDate] = useState("2025-09-30");
   
-  const apod = useAPOD("LyXdwyNfic3xzFdzn9xvk862BGoZGQDemL9qeKFf", date);
+  const apod = useAPOD(import.meta.env.VITE_NASA_API_KEY, date);
 
   // Helper function to get random date
   const getRandomDate = (start = new Date(1995, 5, 16), end = new Date()) => {

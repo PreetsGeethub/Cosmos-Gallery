@@ -13,7 +13,7 @@ function MarsPhotos() {
   const roverOptions = ["curiosity", "opportunity", "spirit"];
 
   const { data, loading, message } = useMarsPhotos(
-    "LyXdwyNfic3xzFdzn9xvk862BGoZGQDemL9qeKFf",
+    import.meta.env.VITE_NASA_API_KEY,
     rover,
     date,
     camera

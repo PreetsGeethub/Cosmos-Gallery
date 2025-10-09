@@ -28,7 +28,7 @@ function EarthView() {
             alert("Geolocation is not supported by this browser.");
         }
     };
-    let apiKey = "LyXdwyNfic3xzFdzn9xvk862BGoZGQDemL9qeKFf";
+    let apiKey = import.meta.env.VITE_NASA_API_KEY;
     const { imageObject, errorMsg, loading } = useEarthImage(apiKey, searchLongitude,
         searchLatitude,
         searchDate);
