@@ -30,6 +30,7 @@ const useMarsPhoto = (apikey="LyXdwyNfic3xzFdzn9xvk862BGoZGQDemL9qeK",rover="cur
         fetch(url)
         .then((response)=>response.json())
         .then((response)=> {
+            console.log("Mars API Response:", response);
             setData(response.photos || []);
             setLoading(false);
         })
