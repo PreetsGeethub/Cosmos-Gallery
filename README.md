@@ -1,16 +1,29 @@
-# React + Vite
+# NASA Space Exploration & Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based dashboard that displays NASA space-related data along with real-time weather information using external APIs.
 
-Currently, two official plugins are available:
+The goal of this project was to practice API integration, custom hooks, and dynamic UI updates in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Displays space-related data fetched from NASA APIs
+- Shows real-time weather information
+- Reusable custom React hooks for data fetching
+- Responsive and user-friendly layout
 
-## React Compiler
+## Tech Stack
+- React
+- JavaScript (ES6+)
+- External APIs
+- CSS
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What I Learned
+- Creating and using custom React hooks
+- Handling asynchronous API calls
+- Managing component state and side effects
+- Updating UI dynamically based on API responses
 
-## Expanding the ESLint configuration
+## Live Demo
+[https://cosmos-gallery-woad.vercel.app/]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+[https://github.com/PreetsGeethub/Cosmos-Gallery]
